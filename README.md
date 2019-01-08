@@ -60,7 +60,7 @@ in the Java library. **Do not use hashing (HashMap/HashSet).**
       // If A = {3,3,4,5,3,5} then howMany(A,8) returns 6
    }
 ```
-**Solution:** [HowMany.java](https://github.com/rahul1947/SP06-Applications-of-Hashing/blob/master/HowMany.java)
+**Solution:** [HowMany.java](https://github.com/rahul1947/SP04-Binary-Search-Tree/blob/master/HowMany.java)
 
 
 **Problem 5.**
@@ -72,7 +72,7 @@ in the Java library. **Do not use hashing (HashMap/HashSet).**
       // Ex: A = {6,3,4,5,3,5}.  exactlyOnce(A) returns {6,4}
    }
 ```
-**Solution:** [ExactlyOnce.java](https://github.com/rahul1947/SP06-Applications-of-Hashing/blob/master/ExactlyOnce.java)
+**Solution:** [ExactlyOnce.java](https://github.com/rahul1947/SP04-Binary-Search-Tree/blob/master/ExactlyOnce.java)
 
 
 **Problem 6.** 
@@ -85,4 +85,4 @@ in the Java library. **Do not use hashing (HashMap/HashSet).**
       // that occur somewhere in A.
    }
 ```
-**Solution:** [LongestStreak.java](https://github.com/rahul1947/SP06-Applications-of-Hashing/blob/master/LongestStreak.java)
+**Solution:** [LongestStreak.java](https://github.com/rahul1947/SP04-Binary-Search-Tree/blob/master/LongestStreak.java)
