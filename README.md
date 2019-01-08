@@ -20,7 +20,7 @@ _______________________________________________________________________________
 **Problem 1.** 
    Implement binary search trees.  Starter code: BinarySearchTree.java.
    
-**Solution:** [BinarySearchTree.java]()
+**Solution:** [BinarySearchTree.java](https://github.com/rahul1947/SP04-Binary-Search-Tree/blob/master/BinarySearchTree.java)
 
 #### B. Optional tasks (individual) - Bounded Size Stack, BSTMap: 
 
@@ -38,12 +38,12 @@ _______________________________________________________________________________
    
    Implement floor(), ceiling(), predecessor() and successor() methods also.
 
-**Solution:** -
+**Solution:** [BoundedStack.java](https://github.com/rahul1947/SP04-Binary-Search-Tree/blob/master/BoundedStack.java)
  
 **Problem 3.**
    Implement BSTMap (like a TreeMap), on top of BST class.  Starter code: BSTMap.java
    
-**Solution:** - 
+**Solution:** [BSTMap.java](https://github.com/rahul1947/SP04-Binary-Search-Tree/blob/master/BSTMap.java)
 
 #### c. Optional tasks (individual) - Problems on TreeMap/TreeSet: 
 
