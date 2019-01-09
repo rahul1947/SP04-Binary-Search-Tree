@@ -4,13 +4,12 @@ import java.util.Map;
 import java.util.TreeMap;
 
 /**
- * Problem: No of TWO SUM PAIRS
- * Solution to the problem 4: with TreeMap/ TreeSet
+ * Problem 04: How many Two Sum pairs
+ * 
  * @author Rahul Nalawade
  * 
- * Date: Wednesday, Jan 02, 2019
+ * Date: January 02, 2019
  */
-
 public class HowMany {
 	
 	/**

@@ -38,7 +38,7 @@ _______________________________________________________________________________
    
    Implement floor(), ceiling(), predecessor() and successor() methods also.
 
-**Solution:** [BoundedStack.java](https://github.com/rahul1947/SP04-Binary-Search-Tree/blob/master/BoundedStack.java)
+**Solution:** [BinarySearchTree.java](https://github.com/rahul1947/SP04-Binary-Search-Tree/blob/master/BinarySearchTree.java)
  
 **Problem 3.**
    Implement BSTMap (like a TreeMap), on top of BST class.  Starter code: BSTMap.java

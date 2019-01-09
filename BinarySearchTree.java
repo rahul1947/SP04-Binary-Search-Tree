@@ -6,12 +6,12 @@ import java.util.Stack;
 import java.util.Comparator;
 
 /**
- * CS 5V81.001: Implementation of DSA - Short Project 4
- * Implementation of Binary Search Tree
- * @author Bharath Reddy - bxr180008
+ * CS 5V81.001: Implementation of DSA
+ * Short Project 04: Implementation of Binary Search Tree
+ * 
  * @author Rahul Nalawade - rsn170330
+ * @author Bharath Reddy - bxr180008
  */
-
 public class BinarySearchTree<T extends Comparable<? super T>> implements Iterable<T> {
 	
 	// Every node of BST = an Entry
@@ -311,11 +311,13 @@ public class BinarySearchTree<T extends Comparable<? super T>> implements Iterab
 				System.out.print("Add " + x + " : ");
 				t.add(x);
 				t.printTree();
-			} else if (x < 0) {
+			} 
+			else if (x < 0) {
 				System.out.print("Remove " + x + " : ");
 				t.remove(-x);
 				t.printTree();
-			} else {
+			} 
+			else {
 				Comparable[] arr = t.toArray();
 				System.out.print("Final: ");
 				for (int i = 0; i < t.size; i++) {
