@@ -21,16 +21,16 @@ public class BinarySearchTree<T extends Comparable<? super T>> implements Iterab
 		
 		// default constructor
 		public Entry(T x, Entry<T> left, Entry<T> right) {
-			this.element = x;
+			element = x;
 			this.left = left;
 			this.right = right;
 		}
 		
 		// for internal use: Entry without any children
 		private Entry(T x) {
-			this.element = x;
-			this.left = null;
-			this.right = null;
+			element = x;
+			left = null;
+			right = null;
 		}
 	}
 	
@@ -300,7 +300,22 @@ public class BinarySearchTree<T extends Comparable<? super T>> implements Iterab
 	}
 
 	// End of Optional problem 2
+	
+	public void printTree() {
+		System.out.print("[" + size + "]");
+		printTree(root);
+		System.out.println();
+	}
 
+	// Inorder traversal of tree
+	private void printTree(Entry<T> node) {
+		if (node != null) {
+			printTree(node.left);
+			System.out.print(" " + node.element);
+			printTree(node.right);
+		}
+	}
+	
 	public static void main(String[] args) {
 		BinarySearchTree<Integer> t = new BinarySearchTree<>();
 		Scanner in = new Scanner(System.in);
@@ -328,20 +343,4 @@ public class BinarySearchTree<T extends Comparable<? super T>> implements Iterab
 			}
 		}
 	}
-
-	public void printTree() {
-		System.out.print("[" + size + "]");
-		printTree(root);
-		System.out.println();
-	}
-
-	// Inorder traversal of tree
-	void printTree(Entry<T> node) {
-		if (node != null) {
-			printTree(node.left);
-			System.out.print(" " + node.element);
-			printTree(node.right);
-		}
-	}
-
 }
