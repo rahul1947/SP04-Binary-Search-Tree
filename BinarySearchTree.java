@@ -14,6 +14,18 @@ import java.util.Comparator;
  */
 public class BinarySearchTree<T extends Comparable<? super T>> implements Iterable<T> {
 	
+	// Standard Attributes of BST:  
+	Entry<T> root; // root of BST
+	int size; // size of BST
+	
+	// Personal Attributes of BST:
+	Entry<T> t; // a temporary entry
+	// to keep track of ancestral information - 
+	
+	// For tree-traversal from root to a certain node t
+	// useful in methods: find(t) bypass(t)
+	Stack<Entry <T>> ancestors = new Stack<Entry <T>>(); // also useful in AVL (balancing)
+	
 	// Every node of BST = an Entry
 	public static class Entry<T> {
 		T element; // value of the entry
@@ -33,15 +45,6 @@ public class BinarySearchTree<T extends Comparable<? super T>> implements Iterab
 			right = null;
 		}
 	}
-	
-	// Standard Attributes of BST:  
-	Entry<T> root; // root of BST
-	int size; // size of BST
-	
-	// Personal Attributes of BST:
-	Entry<T> t; // a temporary entry
-	// to keep track of ancestral information - 
-	Stack<Entry <T>> ancestors = new Stack<Entry <T>>(); // useful in AVL (balancing)
 	
 	// default constructor
 	public BinarySearchTree() {
